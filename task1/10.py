@@ -1,0 +1,10 @@
+import math
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+print("sum: ",a+b)
+print("difference: ",a-b)
+print("product: ",a*b)
+print("quotient ",a/b)
+print("remainder ",a%b)
+print("result of log10 a: ",math.log10(a))
+print("The result of ab ",a**b)

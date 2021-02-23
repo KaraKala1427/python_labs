@@ -1,0 +1,7 @@
+saveacc=int(input("Enter the balance: "))
+firstyear = round(saveacc*1.04,2)
+print("After 1 year: ",firstyear)
+second = round(firstyear*1.04,2)
+print("After 2 year: ",second)
+third = round(second*1.04,2)
+print("After 3 year: ",third)

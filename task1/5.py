@@ -1,0 +1,6 @@
+print("The Number of 1 liter and less containers?")
+a = input()
+print("The Number of more than 1 liter containers?")
+d = input()
+s = float((0.1 * int(a)) + (0.25 * int(d)))
+print("You will receive = $", "%.2f"%s)
