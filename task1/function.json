@@ -1,0 +1,18 @@
+{
+    "scriptFile": "stor.py",
+    "bindings": [{
+            "name": "blobin",
+            "type": "blobTrigger",
+            "direction": "in",
+            "path": "input/{blobname}.{blobextension}",
+            "connection": "MyStorageConnectionString"
+        },
+        {
+            "name": "blobout",
+            "type": "blob",
+            "direction": "out",
+            "path": "output/{blobname}_burger.jpg",
+            "connection": "MyStorageConnectionString"
+        }
+    ]
+}
